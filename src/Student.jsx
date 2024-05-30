@@ -1,8 +1,8 @@
 
-export default function Students(props){
+export default function Student(props){
     return(
-      <div className="Container p-4">
-        <div className="row">Student Enrolled</div>
+      <div className="col-4 p-4">
+        <div className="row">Student Enrolled
         <div className="row border">
           <div className="col-2">   
             <img src= {props.Headshot} u
@@ -14,7 +14,7 @@ export default function Students(props){
             <br />
             Coding Experience {props.experience} Years
           </div>
-  
+        </div>
         </div>
       </div>
     )

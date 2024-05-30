@@ -1,4 +1,4 @@
-import logo from "./images/React.png"
+import logo from "../images/React.png"
 
 function Mainheader(){
     return (
@@ -11,13 +11,13 @@ function Mainheader(){
 }
   
   const SubheaderStyle ={
-    color : "blue",
-    backgroundColor : "lightgary"
+    color : "black-pink-red",
+    backgroundColor : "white"
   }
   
   function Subheader(){
     
-    return <p style={SubheaderStyle}>This will be an exciting Course</p>;
+    return <p style={SubheaderStyle} className="text-center">This will be an exciting Course</p>;
   
   }
   
