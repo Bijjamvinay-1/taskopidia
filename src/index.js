@@ -31,9 +31,9 @@ root.render(
     <Header />
     <MainBody />
     <div className="container"></div>
-    <Student experience={2} name="bijjam vinay"/>
-    <Student experience={7} name="Anand Prasad" />
-    <Student experience={9} name="Ram"/>
+    <Student experience={2} name="bijjam vinay" Headshot = "https://api.lorem.space/image/face?w=150&h=150"/>
+    <Student experience={7} name="Anand Prasad" Headshot = "https://api.lorem.space/image/face?w=150&h=152"/>
+    <Student experience={9} name="Ram" Headshot = "https://api.lorem.space/image/face?w=150&h=151"/>
     <Footer />
   </div>
 );

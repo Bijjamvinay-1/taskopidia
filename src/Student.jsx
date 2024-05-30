@@ -4,9 +4,9 @@ export default function Students(props){
       <div className="Container p-4">
         <div className="row">Student Enrolled</div>
         <div className="row border">
-          <div className="col-2">
-            <img src= {`https://ui-avatars.com/api/?name=${props.name}`}
-            className="w-100"
+          <div className="col-2">   
+            <img src= {props.Headshot} u
+            className="w-100 py-2"
             ></img>
           </div>
           <div className="col-10">
