@@ -1,6 +1,8 @@
 import Student from "./Componets/Student"
+import React from "react";
 
-export default function MainBody(){
+class MainBody extends React.Component{
+  render(){
     const WhatWeWilllearn ="React Js";
     const LectureCount = 3
   return(
@@ -18,7 +20,8 @@ export default function MainBody(){
     <Student experience={7} name="Anand Prasad" Headshot = "https://api.lorem.space/image/face?w=150&h=152"/>
     <Student experience={9} name="Ram" Headshot = "https://api.lorem.space/image/face?w=150&h=151"/>
     </div>
-  )
+  );
   }
+}
   
-  
+export default MainBody;

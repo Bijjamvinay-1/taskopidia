@@ -22,7 +22,7 @@ function Mainheader(){
   }
   
   
-  export default function Header(){
+  const Header= () =>{
     return (
         <div>
           <Mainheader></Mainheader>
@@ -31,6 +31,7 @@ function Mainheader(){
         </div>
       )
   }
+  export default Header;
    
 //   or 
 //  export default Header;
