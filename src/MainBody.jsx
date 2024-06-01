@@ -1,4 +1,4 @@
-import Student from "./Student"
+import Student from "./Componets/Student"
 
 export default function MainBody(){
     const WhatWeWilllearn ="React Js";
